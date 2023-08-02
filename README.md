@@ -1,2 +1,4 @@
-# AnaliseCombinatoriaSiteOFC
-Um site com alguns calculos de Analise Combinatória
+# Autoria
+
+Autoria de analise combinatória feita por:
+Nicolas Rafael Santos Nichnig e Vinicius Freitas da Silva

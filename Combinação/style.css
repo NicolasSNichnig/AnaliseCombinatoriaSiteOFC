@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(to right, #A9E2E3 , #5EC7C9 ,#338C8E);
+}
+
+#divCombinação{
+    position: absolute;
+    width: 15%;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #338C8E;
+    border-radius: 30px;
+    box-shadow: -5px 5px 5px;
+}
+
+#inserirN{
+    border-radius:10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+    height: 25px
+}
+
+#inserirP{
+    border-radius:10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+    height: 25px
+}
+
+#btnCalculo{
+    margin-left: 35%;
+    margin-top: 20px;
+    border-radius:8px;
+    height: 40px;
+    width: fit-content;
+}
+
+.text{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+    margin-top: 12%;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Bodoni MT;
+    text-shadow: 5px 3px black;
+}
