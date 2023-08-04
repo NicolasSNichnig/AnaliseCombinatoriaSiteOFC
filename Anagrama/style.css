@@ -4,8 +4,8 @@ body{
 
 #divAnagrama{
     position: absolute;
-    width: 15%;
-    height: 25%;
+    width: fit-content;
+    height: fit-content;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -14,10 +14,9 @@ body{
     box-shadow: -5px 5px 5px;
 }
 
-#inserirPalavra{
+#texto{
     border-radius:10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 60px;
     width: auto;
     height: 25px
 }
@@ -41,7 +40,7 @@ body{
 #titulo{
     text-align: center;
     color: white;
-    margin-top: 14%;
+    margin-top: inherit;
     font-size: 80px;
     font-weight: bold;
     font-family: Bodoni MT;

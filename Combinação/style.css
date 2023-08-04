@@ -4,7 +4,7 @@ body{
 
 #divCombinação{
     position: absolute;
-    width: 15%;
+    width: fit-content;
     height: fit-content;
     top: 50%;
     left: 50%;
@@ -16,23 +16,20 @@ body{
 
 #inserirN{
     border-radius:10px;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: auto;
+    margin-left: 60px;
+    margin-right: 60px; 
     height: 25px
 }
 
 #inserirP{
     border-radius:10px;
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
     height: 25px
 }
 
 #btnCalculo{
-    margin-left: 35%;
+    margin-left: 120px;
     margin-top: 20px;
     border-radius:8px;
     height: 40px;
@@ -50,7 +47,7 @@ body{
 #titulo{
     text-align: center;
     color: white;
-    margin-top: 12%;
+    margin-top: inherit;
     font-size: 80px;
     font-weight: bold;
     font-family: Bodoni MT;

@@ -48,7 +48,7 @@ input[type=text]{
 #titulo{
     text-align: center;
     color: white;
-    margin-top: 18%;
+    margin-top: inherit;
     font-size: 80px;
     font-weight: bold;
     font-family: Bodoni MT;
