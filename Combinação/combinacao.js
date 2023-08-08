@@ -3,14 +3,19 @@ function calculo() {
     const N = document.getElementById("inserirN").value
     const P = document.getElementById("inserirP").value
 
-    if (+N >= +P){
+    if(+N > 0 || +P > 0){
+        if (+N == "" || +P == ""){
+        }else{
+        if (+N >= +P){
         let demonimadorTotal = factorialize(N-P)
         let fatorialN = factorialize(N)
         let FatorialP = factorialize(P)
 
         let total = fatorialN/(FatorialP*demonimadorTotal)
-        console.log(total)
+        titulo.innerHTML = total
+        }else{window.alert("P é maior que N")} 
     }
+    }else{window.alert("Insira um valor válido")}
 }
 
 function factorialize(num) {
